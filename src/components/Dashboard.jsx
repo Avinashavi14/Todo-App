@@ -9,6 +9,7 @@ import {
   Grid,
 } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
+import image from '../assets/image.png'
 
 function Dashboard() {
   return (
@@ -63,7 +64,7 @@ function Dashboard() {
           <Grid item xs={12} md={6}>
             <Box
               component="img"
-              src="/src/assets/image.png"
+              src={image}
               alt="Todo App Illustration"
               sx={{ width: '100%', borderRadius: '20px' }}
             />
